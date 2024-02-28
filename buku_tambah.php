@@ -58,7 +58,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary" name="submit" value="submit">Submit</button>
                         <button type="reset" class="btn btn-secondary">Reset</button>
-                        <a href="?page=kategori" class="btn iq-bg-danger">Kembali</a>
+                        <a href="?page=produk" class="btn iq-bg-danger">Kembali</a>
                     </form>
                 </div>
             </div>
