@@ -16,9 +16,9 @@
                             $query = mysqli_query($koneksi, "UPDATE kategoribuku set NamaKategori='$kategori' WHERE KategoriID=$id");
 
                             if($query) {
-                                echo '<script>alert("Tambah Data Berhasil."); location.href="?page=kategori"</script>';
+                                echo '<script>alert("Ubah Data Berhasil."); location.href="?page=kategori"</script>';
                             }else{
-                                '<script>alert("Tambah Data Gagal.");</script>';
+                                '<script>alert("Ubah Data Gagal.");</script>';
                             }
                         }
                         
